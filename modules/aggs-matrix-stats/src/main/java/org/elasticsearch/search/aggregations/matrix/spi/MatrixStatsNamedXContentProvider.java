@@ -40,3 +40,4 @@ public class MatrixStatsNamedXContentProvider implements NamedXContentProvider {
         return singletonList(new NamedXContentRegistry.Entry(Aggregation.class, parseField, contextParser));
     }
 }
+
